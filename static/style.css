@@ -1,15 +1,14 @@
 nav{
     opacity: 0.5;
     filter: alpha(opacity=50);
-    background-color: slategray; 
-
+    background-color: slategray;
 }
 .nav-link{
     color: white;
     text-decoration: none;
 }
 
-body{
+.intro{
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("images/bg.jpg");
     background-attachment: scroll;
     background-repeat: no-repeat;
