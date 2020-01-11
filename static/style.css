@@ -1,0 +1,79 @@
+nav{
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    background-color: slategray; 
+
+}
+.nav-link{
+    color: white;
+    text-decoration: none;
+}
+
+body{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("images/bg.jpg");
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+}
+
+.white{
+    color: white;
+}
+hr {
+    border: 0;
+    clear:both;
+    display:block;
+    width: 96%;               
+    background-color:silver;
+    height: 1px;
+  }
+button{
+    border:none;
+    outline: none;
+}
+
+
+
+
+
+
+.name{
+    font-size: 40px;
+}
+@media only screen and (min-width: 768px) {
+    .name{
+        font-size: 80px;
+    }
+  }
+  .name{
+    -webkit-animation: color-change 1s infinite;
+    -moz-animation: color-change 1s infinite;
+    -o-animation: color-change 1s infinite;
+    -ms-animation: color-change 1s infinite;
+    animation: color-change 1s infinite;
+}
+
+@-webkit-keyframes color-change {
+    0% { color: silver }
+    50% { color: slategray; }
+    100% { color: silver }
+}
+@-moz-keyframes color-change {
+    0% { color: silver }
+    50% { color: slategray; }
+    100% { color: silver }
+}
+@-ms-keyframes color-change {
+    0% { color: silver }
+    50% { color: slategray; }
+    100% { color: silver }
+}
+@-o-keyframes color-change {
+    0% { color: silver }
+    50% { color: slategray; }
+    100% { color: silver }
+}
+@keyframes color-change {
+    0% { color: silver }
+    50% { color: slategray; }
+    100% { color: silver }
+}
