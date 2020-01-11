@@ -32,25 +32,21 @@ button{
 
 .self{
     border-radius: 50%;
-    height: 360px;
-    width:360px;
+    height: 170px;
+        width:170px;
     
 }
-
-@media only screen and (max-width: 768px) {
-    .self{
-        border-radius: 50%;
-        height: 170px;
-        width:170px;
-    }
-  }
-
 .name{
-    font-size: 40px;
+    font-size: 20px;
 }
 @media only screen and (min-width: 768px) {
     .name{
-        font-size: 80px;
+        font-size: 60px;
+    }
+    .self{
+        border-radius: 50%; 
+        height: 360px;
+        width:360px;
     }
   }
   .name{
