@@ -76,3 +76,8 @@ button{
     50% { color: slategray; }
     100% { color: silver }
 }
+
+
+.footer{
+    opacity: 0.5;
+}
