@@ -1,7 +1,7 @@
 nav{
     opacity: 0.5;
     filter: alpha(opacity=50);
-    background-color: slategray;
+    background-color: black;
 }
 .nav-link{
     color: white;
