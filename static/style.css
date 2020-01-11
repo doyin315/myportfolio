@@ -30,7 +30,12 @@ button{
     outline: none;
 }
 
-
+.self{
+    border-radius: 50%;
+    height: 360px;
+    width:360px;
+    
+}
 
 
 
