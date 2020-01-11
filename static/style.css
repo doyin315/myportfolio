@@ -37,6 +37,14 @@ button{
     
 }
 
+@media only screen and (max-width: 768px) {
+    .self{
+        border-radius: 50%;
+        height: 250px;
+        width:250px;
+    }
+  }
+
 
 
 
